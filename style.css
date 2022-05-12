@@ -81,16 +81,20 @@ nav{
     margin-bottom: 30px;
  }
 
-.about-us{
+.button-trans{
     display: inline-block;
     text-decoration:none;
     color: #ffffff;
     border: 1px solid #ffffff;
     padding: 12px 34px;
     font-size: 13px ;
-    background: transparent;
     position: relative;
+    background: transparent;
     cursor: pointer;
+}
+.button-trans:hover{
+    backdrop-filter: blur(3px);
+    transition: 400ms;
 }
 
 
