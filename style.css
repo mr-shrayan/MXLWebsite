@@ -10,7 +10,7 @@
      min-height: 100vh;
      width: 100%;
      background-image: url(images/banner.png);
-     background-position: center ;
+     background-position: center;
      background-size: cover;
      position: relative;
  }
@@ -109,6 +109,9 @@ nav img{
 
 
 @media(max-width: 700px){
+    .text-box{
+        z-index: 1;
+    }
     .text-box h3{
         font-size: 14px;
      }
@@ -126,7 +129,7 @@ nav img{
         position: absolute;
         background: #1f1f1f;
         height: 100vh;
-        width: 100%;
+        width: 40%;
         top: 0;
         right: 0;
         text-align: left;
